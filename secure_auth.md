@@ -187,7 +187,7 @@ export class SessionService implements SessionServiceInterface {
 ```
 
 # Server setup
-### Setting up a Session service
+### Setting up a token verification
 ```python
 from fastapi import HTTPException, status, Security, Cookie, Header, Response
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
